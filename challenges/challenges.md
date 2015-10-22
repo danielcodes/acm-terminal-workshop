@@ -1,6 +1,6 @@
 # Terminal Talk - Challenges
 
-### ACM Club - Oct 22, 2015
+##### ACM Club - Oct 22, 2015
 
 ### Instructions
 When attempting these challenges, it's assumed that you've cloned this repo and pointed your terminal to the challenges directory. Each challenge section has a subdirectory for itself, and in those subdirectories is where you should do your work.
