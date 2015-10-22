@@ -6,7 +6,7 @@
 When attempting these challenges, it's assumed that you've cloned this repo and pointed your terminal to the challenges directory. Each challenge section has a subdirectory for itself, and in those subdirectories is where you should do your work.
 
 ## Section-1 - Coding workflow - Part 1
-1. **Navigate to a aLongfile.cpp file**
+1. **Navigate to aLongfile.cpp file**
 1. **Print contents of aLongFile.cpp file to terminal**
 
     *Hint:* `cat` and `less` are helpful here, but which one should you use? Both do text reading. Try to think about how they get the job done differently.
@@ -96,7 +96,7 @@ When attempting these challenges, it's assumed that you've cloned this repo and 
     *Hint:* Remember `wc` counts lines, but no one said that they have to be lines of a file.
 1. **Store “Hello world” in a new file**
 
-    *Hint:* `echo` might be pretty unoriginal, but she’s pretty true to her purpose, which is just repeating what others tell her to say. Yes, she’s an overgrown parrot, but it works for her, somehow. Just listen to her, you’ll know what I mean: run `echo ‘I am bigger than my problems’`
+    *Hint:* `echo` might be pretty unoriginal, but she’s pretty true to her purpose, which is just repeating what others tell her to say. Yes, she’s an overgrown parrot, but it works for her, somehow. Just listen to her, you’ll know what I mean: run `echo "I am bigger than my problems"`
 1. **Append “Goodbye world” to the file from the previous challenge**
 
     *Hint:* Give your cheatsheet a quick glance. You’ll find what you’re looking for in the “Pipe/Redirection” section.
