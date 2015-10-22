@@ -23,9 +23,9 @@ Windows users, who don't have access to a Linux virtual machine, are suggested t
 
 [acm]: http://ccnyacm.github.io/
 [git]: http://git-scm.com/downloads
-[slides]: terminal_workshop-slides.pdf
+[slides]: https://github.com/ian-s-mcb/acm-terminal-workshop/raw/master/terminal_workshop-slides.pdf
 [companion]: companion/companion.sh
-[cheatsheet]: terminal_workshop-cheatsheet.pdf
+[cheatsheet]: https://github.com/ian-s-mcb/acm-terminal-workshop/raw/master/terminal_workshop-cheatsheet.pdf
 [challenges]: challenges/challenges.md
 [dan]: https://github.com/danielcodes
 [allen]: https://github.com/ackei
