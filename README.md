@@ -1,6 +1,6 @@
 # ACM Terminal Workshop
 
-### CCNY ACM Club - Oct 22, 2015
+##### CCNY ACM Club - Oct 22, 2015
 
 ## About
 This repo is meant to support the [CCNY ACM Club's][acm] Terminal Workshop.
@@ -12,7 +12,7 @@ Windows users, who don't have access to a Linux virtual machine, are suggested t
 ## Getting started
 1. Download/clone this repo
 1. Read the [slides][slides]
-1. (Optional) try out the commands list in [companion][companion]
+1. (Optional) try out the commands listed in [companion][companion]
 1. Consult with [cheatsheet][cheatsheet]
 1. Solve the [challenges][challenges]
 
