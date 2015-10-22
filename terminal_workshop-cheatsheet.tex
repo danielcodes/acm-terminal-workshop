@@ -1,0 +1,121 @@
+\documentclass[14pt,landscape]{extarticle}
+\usepackage{multicol}
+\usepackage{ifthen}
+\usepackage[landscape]{geometry}
+
+% This sets page margins to .5 inch if using letter paper, and to 1cm
+% if using A4 paper. (This probably isn't strictly necessary.)
+% If using another size paper, use default 1cm margins.
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+	{ \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+	}
+
+% Turn off header and footer
+\pagestyle{empty}
+ 
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+
+\begin{document}
+\begin{center}
+     \Large\textbf{Terminal Cheat Sheet}\\
+	\footnotesize\textbf{ACM Club - October 22, 2015}
+\end{center}
+
+\raggedright
+\footnotesize
+
+\setlength{\multicolsep}{30pt}
+\setlength{\columnsep}{0pt}
+
+\begin{multicols}{2}
+
+\subsection{File System Basics}
+\begin{tabular}{@{}ll@{}}
+\verb!.!    & Present directory \\
+\verb!..!  & One level above the present directory \\
+\verb!/! & Beginning of the structure (aka 'root') \\
+\verb!~!  & User's profile or home directory
+\end{tabular}
+
+\subsection{Navigation}
+\begin{tabular}{@{}ll@{}}
+\verb!pwd!    & Print working directory \\
+\verb!cd!  & Change directory \\
+\verb!ls! & List files
+\end{tabular}
+
+\subsection{File Manipulation}
+\begin{tabular}{@{}ll@{}}
+\verb!mkdir!    & Makes a directory \\
+\verb!cp!  & Copies a file \\
+\verb!mv! & Moves/renames a file\\
+\verb!rm! & Removes/deletes a file
+\end{tabular}
+
+\subsection{File Matching}
+\begin{tabular}{@{}ll@{}}
+\verb!?!    & Matches a single character \\
+\verb!*!  & Matches any number of unknown character \\
+\verb!{a,b,c}! & Matches listed cases\\
+\verb!{0..5}! & Matches number/letter ranges
+\end{tabular}
+
+\subsection{Text Reading}
+\begin{tabular}{@{}ll@{}}
+\verb!cat!    & Dumps entire contents to terminal \\
+\verb!less!  & Pages through contents \\
+\end{tabular}
+
+\subsection{Time Savers}
+\begin{tabular}{@{}ll@{}}
+\verb!Tab Completion!    & Only type part of a command \\
+\verb!Arrow up!  & Reuse previously entered commands \\
+\verb!history! & Display previously entered commands \\
+\verb!clear! & Clears the terminal of output \\
+\end{tabular}
+
+\subsection{Documentation}
+\begin{tabular}{@{}ll@{}}
+\verb!<command> --h!    & Short details \\
+\verb!man <command>!  & Extended details\\
+\end{tabular}
+
+\subsection{Pattern Matching}
+\begin{tabular}{@{}ll@{}}
+\verb!regex!  & Regular expressions - syntax for pattern matching \\
+\verb!grep!    & Globally search a regular expression and print \\
+\verb!sed! & Stream editor - useful for string substitution
+\end{tabular}
+
+\subsection{Input/Output}
+\begin{tabular}{@{}ll@{}}
+\verb!STDIN!    & Stream of input data \\
+\verb!!    & Possible sources: user typing in text, reading of file \\
+\verb!STDOUT!  & Stream of output data \\
+\verb!!  & Possible destinations: terminal screen, another command \\
+\verb!echo! & Creates STDOUT stream - Just like 'cout \textgreater\textgreater' in cpp file
+\end{tabular}
+
+\subsection{Pipe/Redirection}
+\begin{tabular}{@{}ll@{}}
+\verb!| (pipe symbol)!    & Connect STDOUT of one \\
+\verb!!   & program to STDIN of another \\
+\verb!aCommand < aFile!  & Read in a file \\
+\verb!aCommand < aFile!  & Write to a file \\
+\verb!aCommand >> aFile!  & Append to a file \\
+\verb!aCommand < inFile > outFile!  & Reading and writing combo 
+\end{tabular}
+
+\subsection{gcc/g{}\texttt{++}}
+\begin{tabular}{@{}ll@{}}
+\verb!g++!  & Compiles cpp code \\
+ \verb!-o <executable output name>!  & Gives executable a proper name \\
+\end{tabular}
+\end{multicols}
+\end{document}
